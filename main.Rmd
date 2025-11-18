@@ -1,3 +1,5 @@
+This is the .rmd file I made in RStudio.
+
 ---
 title: "Final"
 output: html_document
@@ -7,7 +9,6 @@ date: "2023-04-16"
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
 
 <h1 style="text-align:center">Summary</h1>
 <p>
@@ -453,4 +454,5 @@ for (i in models) {
   print(summary(i))
 }
 ```
+
 
